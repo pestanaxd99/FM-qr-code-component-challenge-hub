@@ -1,28 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet>
+  <link rel=" icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <!--TAILWIND-->
+  <script src="https://cdn.tailwindcss.com"></script>
+
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(240, 2%, 35%);
+    }
   </style>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
-<body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+<body class="container
+  sm:bg-red-100 sm:m-16 sm:p-32 sm:top-4 sm:hover:top-6
+  md:mx-auto md:px-2 md:text-center md:w-1/4 md:bg-blue-100 md:-mx-[16] md:-my-[32] md:m-2 md:p-4">
+  <div class="h-96 p-3">
+    <div class="bg-slate-50 max-w-sm rounded-2xl overflow-hidden shadow-lg">
+      <img class="p-4 rounded-3xl" src="./images/image-qr-code.png">
+      <div class="px-6 py-4">
+        <div class="font-sans tracking-normal font-bold text-center text-xl mb-8">
+          Improve your front-end skills by building projects
+        </div>
+        <p class="text-gray-700 tracking-normal text-center mb-8">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </p>
+      </div>
+    </div>
+    <div class="pt-6 text-sm">
+      <a class="pb-1" href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Challenge by Frontend Mentor.
+      </a>    
+      <a class="pb-1" target="_blank" href="https://github.com/pestanaxd99">
+        Coded by Cristians Pestana.
+      </a>
+    </div>
   </div>
 </body>
 </html>
